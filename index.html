@@ -4,13 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Game</title>
     <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Rock paper scissor game</h1>
-    </header>
+    <h1>Rock Paper Scissors</h1>
+    <div class="container">
+            <h2 id="comp">Computer</h2>
+            <h2 id="play">player</h2>
     </div>
+    <div class="scores">
+        <h3>Scores: 0</h3>
+        <h3>Scors: 0</h3>
+    </div>
+    <div class="results">
+        <div id="computer-results"></div>
+        <div id="player-results"></div>
+    </div>
+    <div id="final-results"></div>
+    <div class="buttons">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
+    <footer>
+        <p>Rock, Paper & Scissors arted by <span>Njonge Fred</span>  <span><a href="https://www.theodinproject.com/">The odin project</a></span></p>
+    </footer>
 </body>
 </html>

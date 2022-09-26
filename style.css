@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: 'Pacifico', cursive;
+    position: relative;
+    
+}
+
+body::after{
+    content: '';
+    display: block;
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 34px;
+    padding: 37px;
+    
+}
+.scores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 54px;
+}
+
+.results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 34px;
+    padding: 37px;
+    gap: 42px;
+    
+}
+
+h2{
+    padding-right: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    border-radius: 12px;
+    border: 2px solid antiquewhite;
+    margin: 20px;
+}
+
+footer {
+    background-color: blanchedalmond;
+    text-align: center;
+    bottom: -450px;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+}
